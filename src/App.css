@@ -1,0 +1,72 @@
+*{
+  background-color: aliceblue;
+}
+
+.body-content{
+  margin: 5vh 15vw;
+}
+
+.search-box{
+  border: 1px solid black;
+  height: 3rem;
+  border-radius: 25px;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.search-box input{
+  border: none;
+  padding: 0 8px;
+  border-radius: 25px;
+}
+
+.search-box input:focus{
+  outline: none;
+}
+
+.search-btn{
+  border-radius: 25px;
+  background-color: rgb(5, 63, 114);
+  width: 10rem;
+  height: 3rem;
+  color: white;
+}
+
+.search-icon{
+  margin-left: 15px;
+  display: flex;
+  align-self: center;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+table tr:nth-child(odd) {
+    background-color: #dbdddd;
+}
+
+table tr:hover {
+    background-color: rgba(5, 63, 114, 0.5);
+    cursor: pointer;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(5, 63, 114);
+    color: white;
+}
